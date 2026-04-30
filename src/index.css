@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 33% 96%;
+    --foreground: 0 0% 29%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 29%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 29%;
+
+    --primary: 229 49% 33%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 20 85% 60%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 40 20% 92%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 20 85% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 40 20% 88%;
+    --input: 40 20% 88%;
+    --ring: 229 49% 33%;
+
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+  @apply border-gray-200;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Geom', system-ui, -apple-system, sans-serif;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Brand colors */
+:root {
+  --brand-blue: #2A3B7E;
+  --brand-orange: #EF7F44;
+  --brand-beige: #F9F6F1;
+  --brand-text: #4A4A4A;
+}
+
+.bg-brand-blue { background-color: #2A3B7E; }
+.bg-brand-orange { background-color: #EF7F44; }
+.bg-brand-beige { background-color: #F9F6F1; }
+.text-brand-blue { color: #2A3B7E; }
+.text-brand-orange { color: #EF7F44; }
+.text-brand-text { color: #4A4A4A; }
+.border-brand-blue { border-color: #2A3B7E; }
+.border-brand-orange { border-color: #EF7F44; }
+
+@font-face {
+  font-family: 'Geom';
+  src: url('/static/Geom-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geom';
+  src: url('/fonts/Geom-Bold.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
