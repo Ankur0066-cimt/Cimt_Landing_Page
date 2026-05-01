@@ -1,80 +1,129 @@
-import React from 'react'
+// import React from 'react'
 
-const ProductCategories = () => {
+// const ProductCategories = () => {
+//   return (
+
+//   )
+// }
+
+// export default ProductCategories
+
+
+import React from "react";
+import {
+  Layers,
+  MapPin,
+  LineChart,
+  ClipboardCheck,
+} from "lucide-react";
+
+const ProductCategories: React.FC = () => {
   return (
-  <section id="what-we-do" className="bg-[#F9F6F1] py-12 md:py-18">
-      <div className=" font-rubik max-w-8xl mx-auto px-6 md:px-10">
+    <section id="what-we-do" className="bg-[#F9F6F1] py-12 md:py-18">
+      <div className="font-archivo max-w-8xl mx-auto px-6 md:px-10">
+
         <div className="relative bg-[#F9F6F5] rounded-3xl p-8 md:p-14 shadow-[0_4px_24px_rgba(42,59,126,0.06)] border border-[#F0EBE0]">
-          {/* <CornerBrackets
-            color="orange"
-            size={45}
-            thickness={17}
-            inset={-14}
-            corners={["tl", "br"]}
-          /> */}
 
-         <div className="mb-8 md:mb-12">
-      <p className="text-[#EF7F44] font-bold text-md tracking-[0.2em] uppercase mb-3">
-        PRODUCT CATEGORIES
-      </p>
+          {/* Corner Brackets */}
+          <div className="pointer-events-none">
+            <span className="absolute w-[45px] h-[45px] -top-[14px] -left-[14px] border-t-[17px] border-l-[17px] border-[#EF7F44] rounded-tl-sm"></span>
+            <span className="absolute w-[45px] h-[45px] -bottom-[14px] -right-[14px] border-b-[17px] border-r-[17px] border-[#EF7F44] rounded-br-sm"></span>
+          </div>
 
-      <div className="h-[2px] bg-[#EF7F44] w-full mb-6"></div>
+          {/* GRID */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
 
-      <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#2A3B7E] leading-tight">
-        Explore Our Range
-      </h2>
-    </div>
+            {/* LEFT */}
+            <div>
+              <p className="text-[#EF7F44] font-bold text-md tracking-widest uppercase mb-2">
+                What We Do
+              </p>
 
-    {/* Grid */}
-    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8">
+              <div className="h-[3px] bg-[#2A3B7E] w-full mb-3"></div>
 
-      {/* CARD */}
-      <div className="rounded-xl border-2 border-[#2A3B7E] overflow-hidden">
-        <div className="bg-[#EF7F44] text-white font-bold text-lg px-5 py-3">
-          Classic Printed Paint
-        </div>
-        <div className="bg-[#F9F6F5] px-5 py-5 text-[#2A3B7E] text-base leading-relaxed">
-          Clean, modern finishes for everyday spaces
-        </div>
-      </div>
+              <h2 className="text-3xl md:text-5xl lg:text-5xl font-extrabold text-[#2A3B7E] leading-tight mb-6">
+                Engineered for Scale. <br />
+                Built for the Last Mile.
+              </h2>
 
-      {/* CARD */}
-      <div className="rounded-xl border-2 border-[#2A3B7E] overflow-hidden">
-        <div className="bg-[#EF7F44] text-white font-bold text-lg px-5 py-3">
-          Designer Paint
-        </div>
-        <div className="bg-[#F9F6F5] px-5 py-5 text-[#2A3B7E] text-base leading-relaxed">
-          Elevated premium design looks
-        </div>
-      </div>
+              <p className="text-[#4A4A4A] text-base md:text-[25px] leading-relaxed">
+                Powered by{" "}
+                <span className="font-bold text-[#2A3B7E]">Advitta</span>, our
+                proprietary material technology platform, we bring consistency,
+                quality, and performance across every stage — from production,
+                printing to last-mile print application.
+              </p>
+            </div>
 
-      {/* CARD */}
-      <div className="rounded-xl border-2 border-[#2A3B7E] overflow-hidden">
-        <div className="bg-[#EF7F44] text-white font-bold text-lg px-5 py-3">
-          Aesthetic Paint Murals
-        </div>
-        <div className="bg-[#F9F6F5] px-5 py-5 text-[#2A3B7E] text-base leading-relaxed">
-          Custom-designed feature walls that make a statement
-        </div>
-      </div>
+            {/* RIGHT FEATURES */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8">
 
-      {/* CARD */}
-      <div className="rounded-xl border-2 border-[#2A3B7E] overflow-hidden">
-        <div className="bg-[#EF7F44] text-white font-bold text-lg px-5 py-3">
-          Functional Paint Murals
-        </div>
-        <div className="bg-[#F9F6F5] px-5 py-5 text-[#2A3B7E] text-base leading-relaxed">
-          Purpose-driven designs for commercial and public spaces
-        </div>
-      </div>
+              {/* ITEM 1 */}
+              <div className="flex gap-4">
+                <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-[#EF7F44]/10 text-[#EF7F44] flex items-center justify-center">
+                  <Layers className="w-6 h-6" />
+                </div>
+                <div>
+                  <h4 className="text-xl md:text-2xl font-bold text-[#2A3B7E]  mb-2">
+                    Material to Execution
+                  </h4>
+                  <p className="text-sm md:text-[21px] text-[#4A4A4A] leading-relaxed">
+                    We are a material science driven company that has evolved into a full-scale execution partner, ensuring complete control from material innovation to printing and final on-ground application.
+                  </p>
+                </div>
+              </div>
 
-    </div>
+              {/* ITEM 2 */}
+              <div className="flex gap-4">
+                <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-[#EF7F44]/10 text-[#EF7F44] flex items-center justify-center">
+                  <MapPin className="w-6 h-6" />
+                </div>
+                <div>
+                  <h4 className="text-xl md:text-2xl font-bold text-[#2A3B7E] mb-2">
+                    Rural & Large-Scale Campaign Execution
+                  </h4>
+                  <p className="text-sm md:text-[21px] text-[#4A4A4A] leading-relaxed">
+                    Our network enables seamless deployment across geographies, ensuring brands achieve deep market penetration with speed and accuracy.
+                  </p>
+                </div>
+              </div>
 
+              {/* ITEM 3 */}
+              <div className="flex gap-4">
+                <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-[#EF7F44]/10 text-[#EF7F44] flex items-center justify-center">
+                  <LineChart className="w-6 h-6" />
+                </div>
+                <div>
+                  <h4 className="text-xl md:text-2xl font-bold text-[#2A3B7E] mb-2">
+                    Tech-Enabled Tracking & Transparency
+                  </h4>
+                  <p className="text-sm md:text-[21px] text-[#4A4A4A] leading-relaxed">
+                    Every execution is backed by structured tracking systems, including location verification, geo tagging, and real-time visibility to ensure accountability.
+                  </p>
+                </div>
+              </div>
 
+              {/* ITEM 4 */}
+              <div className="flex gap-4">
+                <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-[#EF7F44]/10 text-[#EF7F44] flex items-center justify-center">
+                  <ClipboardCheck className="w-6 h-6" />
+                </div>
+                <div>
+                  <h4 className="text-xl md:text-2xl font-bold text-[#2A3B7E] mb-2">
+                    End-to-End Project Management
+                  </h4>
+                  <p className="text-sm md:text-[21px] text-[#4A4A4A] leading-relaxed">
+                    From site identification and approvals to execution and reporting, we manage the entire lifecycle with a process-driven approach.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ProductCategories
+export default ProductCategories;
