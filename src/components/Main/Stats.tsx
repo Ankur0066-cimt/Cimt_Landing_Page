@@ -1,12 +1,12 @@
 import React from "react";
 import { Smartphone } from "lucide-react";
 
-import innovation from "../../assets/Cimt-1/Cred_01.png"
-import techonology from '../../assets/Cimt-1/Cred_02.png';
+import innovation from "../../assets/Advitta/Cred_01.png"
+import techonology from '../../assets/Advitta/Cred_02.png';
 
-import application from  '../../assets/Cimt-1/Cred_03.png';
-import deployement from   '../../assets/Cimt-1/Cred_04.png';
-
+import application from  '../../assets/Advitta/Cred_03.png';
+import deployement from   '../../assets/Advitta/Cred_04.png';
+import material from   '../../assets/Advitta/Cred_05.png';
 
 const INDIA_MAP =
   "https://mgx-backend-cdn.metadl.com/generate/images/592788/2026-04-20/m6x7zwqaafgq/india-map-icon.png";
@@ -43,8 +43,8 @@ const StatCard: React.FC<StatCardProps> = ({ title, icon }) => {
 const Stats: React.FC = () => {
   return (
     <section className="bg-[#F9F6F1] py-10 md:py-18">
-      <div className="font-archivo max-w-8xl mx-auto px-10 md:px-18">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-10">
+      <div className="font-geom max-w-8xl mx-auto px-10 md:px-18">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 md:gap-10">
   
          <StatCard
   
@@ -54,7 +54,7 @@ const Stats: React.FC = () => {
     <img
       src={innovation}
       alt="Innovation"
-      className="h-full w-full object-contain p-8"
+      className="h-full w-full object-contain p-2"
     />
   }
 />
@@ -67,7 +67,7 @@ const Stats: React.FC = () => {
     <img
       src={techonology}
       alt="Teams"
-      className="h-full w-full object-contain p-8"
+      className="h-full w-full object-contain p-2"
     />
   }
 />
@@ -77,7 +77,7 @@ const Stats: React.FC = () => {
     <img
       src={application}
       alt="India map"
-      className="h-full w-full object-contain p-8"
+      className="h-full w-full object-contain p-2"
     />
   }
   title="Than Traditional Painting"
@@ -89,7 +89,7 @@ const Stats: React.FC = () => {
     <img
       src={deployement}
       alt="India map"
-      className="h-full w-full object-contain p-8f"
+      className="h-full w-full object-contain p-2"
     />
   }
  
@@ -98,6 +98,18 @@ const Stats: React.FC = () => {
 />
 
 
+<StatCard
+ icon={
+    <img
+      src={material}
+      alt="India map"
+      className="h-full w-full object-contain p-2"
+    />
+  }
+ 
+  title="Best In-Class Warranty"
+  
+/>
 
         </div>
       </div>

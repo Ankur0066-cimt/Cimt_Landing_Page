@@ -1,58 +1,60 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
-import CornerBrackets from "./CornerBrackets";
-import HERO_IMG from "../../assets/Cimt-1/Image_Top.jpg";
+import HERO_IMG from "../../assets/Advitta/Image_01_Top.jpg";
 
 const Hero: React.FC = () => {
   return (
     <section className="relative bg-[#F9F6F1] overflow-hidden">
       <div className="max-w-full mx-auto">
-        <div className="relative">
+        <div className="relative overflow-hidden">
 
           {/* Background */}
           <div
-            className="relative h-[480px] sm:h-[520px] md:h-[900px] bg-cover md:bg-contain   bg-center"
+            className="
+              relative 
+              h-[520px] sm:h-[600px] md:h-[970px] 
+              bg-cover md:bg-cover   
+              bg-center bg-no-repeat
+            "
             style={{ backgroundImage: `url(${HERO_IMG})` }}
           >
 
-            {/* Overlay FIXED */}
-           
-            <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70" />
-<div className="block md:hidden">
-  <CornerBrackets color="orange" size={28} thickness={12} inset={8} />
+            {/* Overlay FIX */}
+            <div className="absolute 50 bg-gradient-to-b from-black/60 via-black/40 to-black/70" />
+
+            {/* CONTENT */}
+            <div className="font-geom relative z-10 flex flex-col justify-center items-center text-center px-4 sm:px-6 h-full">
+
+              <div className="w-full px-4 md:px-0 md:w-auto md:max-w-none">
+
+  {/* Heading */}
+  <h1 className="text-white font-extrabold leading-[1.05] tracking-tight text-center mt-10">
+    <span className="block whitespace-nowrap text-[clamp(28px,8vw,140px)]">
+      The Precision
+    </span>
+
+    <span className="block whitespace-nowrap text-[clamp(32px,9vw,160px)]">
+      of Expression.
+    </span>
+  </h1>
+
+  {/* Paragraph */}
+  <p className="text-white/90 text-md sm:text-xl md:text-3xl max-w-6xl mx-auto leading-relaxed mt-8">
+    Advitta is a proprietary material technology developed by Can Image Media Tech, creating next-generation water-based and water-activated solutions engineered for performance, scalability, and seamless real-world surface applications.
+  </p>
+
+  {/* CTA */}
+  <div className="mt-6 flex justify-end">
+    <a
+      href="#cta"
+      className="inline-flex items-center gap-6 bg-gradient-to-r from-[#1097C4] to-[#D6BD56] hover:opacity-90 text-white font-semibold text-sm md:text-xl px-5 py-2 rounded-full shadow-lg shadow-black/20 transition"
+    >
+      Get in Touch
+      <ArrowRight className="w-5 h-5 md:w-8 md:h-8" />
+    </a>
+  </div>
+
 </div>
-
-<div className="hidden md:block">
-  <CornerBrackets color="orange" size={42} thickness={17} inset={20} />
-</div>
-            {/* Bottom Left Content */}
-            <div className="absolute bottom-6 md:bottom-12 left-5 sm:left-6 md:left-12 z-10 font-archivo">
-
-              <div className="relative max-w-[720px] md:ml-40">
-
-                {/* Corner Brackets */}
-               
-                {/* Heading */}
-                <h1 className="text-white font-semibold tracking-tight 
-                  text-4xl sm:text-5xl md:text-7xl 
-                  leading-[1.15] md:leading-[1.05]"
-                >
-                  <span className="block">Rural Advertising,</span>
-                  <span className="block mb-4 md:mb-6">Reimagined.</span>
-                </h1>
-
-                {/* Paragraph */}
-                <p className="text-white/90 text-sm md:text-xl max-w-[952px] leading-relaxed">
-                  Can Image is a rural and large-scale execution partner, combining proprietary material technology with a process-driven on-ground network to deliver high-quality digital wall printing with unmatched consistency, speed, and transparency.
-                </p>
-
-                {/* Button */}
-                <button className="mt-5 inline-flex items-center ml-20 md:ml-0 gap-2 bg-orange-500 hover:bg-orange-600 text-white font-semibold text-sm md:text-base px-6 py-2 rounded-full transition-all">
-                  Get in Touch
-                  <ArrowRight className="w-4 h-4" />
-                </button>
-
-              </div>
             </div>
 
           </div>

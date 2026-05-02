@@ -8,25 +8,33 @@ import CTASection from "../components/Main/CTASection";
 import Footer from "../components/Main/Footer";
 
 import ProductCategories from "@/components/Main/ProductCategories";
+import Application from "@/components/Main/Application";
+import Sustainability from "@/components/Main/Sustainability";
 
-
+import '../App.css'
 
 
 const Index: React.FC = () => {
   return (
     <div className="min-h-screen bg-[#F9F6F1] text-[#4A4A4A] font-[Montserrat]">
+        <div className="fade-down">
       <Header />
       <Hero />
       <Stats />
           <CorePhilosophy />
        <ProductCategories  />
+   <Application />  
    
+
+  <Sustainability />
+
      
       
      
       <CTASection />
       
       <Footer />
+      </div>
     </div>
   );
 };

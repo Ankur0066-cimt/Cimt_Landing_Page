@@ -24,7 +24,7 @@ export default {
       fontFamily: {
        
         
-        archivo: ["Archivo", "sans-serif"],
+        geom: ["Geometer", "sans-serif"],
       },
       colors: {
         border: 'hsl(var(--border))',
