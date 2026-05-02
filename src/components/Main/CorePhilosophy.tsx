@@ -12,13 +12,13 @@ const CorePhilosophy: React.FC = () => {
 
             {/* LEFT */}
             <div className="relative">
-              <p className="text-[#EF7F44] font-semibold text-sm tracking-widest uppercase mb-2 m-2">
+              <p className="text-[#EF7F44] font-geom font-bold   font-semibold text-sm tracking-widest uppercase mb-2 m-2">
                 Core Philosophy
               </p>
 
-              <div className="h-[3px] bg-[#2A3B7E] ml-1 w-full mb-2"></div>
+              <div className="font-geom font-light h-[3px] bg-[#2A3B7E] ml-1 w-full mb-2"></div>
 
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#2A3B7E] leading-tight mb-6">
+              <h2 className="font-geom font-extrabold text-3xl md:text-4xl lg:text-5xl font-semibold text-[#2A3B7E] leading-tight mb-6">
                 From Material Innovation to <br />
                 <span className="text-[#EF7F44]">
                   Industry Transformation.
@@ -55,7 +55,7 @@ const CorePhilosophy: React.FC = () => {
             </div>
 
             {/* RIGHT */}
-            <div className="flex flex-col gap-5">
+            <div className="font-geom font-light flex flex-col gap-5">
               <div className="block">
 
                 <div className="relative rounded-2xl overflow-hidden shadow-lg h-[200px] md:h-[350px] mx-4 sm:mx-6 md:mx-20">

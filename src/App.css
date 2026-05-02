@@ -12,3 +12,23 @@
 .fade-down {
   animation: fadeDown 0.9s ease-out forwards;
 }
+
+
+
+@font-face {
+  font-family: 'Geom';
+  src: url('./assets/font/Geom-Light.woff2') format('woff2'),
+       url('./assets/font/Geom-Light.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geom';
+  src: url('./assets/font/Geom-ExtraBold.woff2') format('woff2'),
+       url('./assets/font/Geom-ExtraBold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

@@ -11,19 +11,19 @@ const Sustainability: React.FC = () => {
 
             {/* LEFT */}
             <div>
-              <p className="text-[#EF7F44] font-semibold text-sm tracking-widest uppercase mb-2">
+              <p className="text-[#EF7F44] font-bold text-sm tracking-widest uppercase mb-2">
                 Sustainability
               </p>
 
               <div className="h-[3px] bg-[#2A3B7E] w-full mb-2"></div>
 
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#2A3B7E] leading-tight mb-6">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-[#2A3B7E] leading-tight mb-6">
                 Responsible Material <br />
                 Innovation at Scale.
               </h2>
 
               <p className="text-[#4A4A4A] text-base md:text-[25px] leading-relaxed">
-                <span className="font-semibold text-[#2A3B7E]">
+                <span className="font-geom font-light text-[#2A3B7E]">
                   Advitta
                 </span>{" "}
                 is built on the belief that the future of material science must
@@ -32,7 +32,7 @@ const Sustainability: React.FC = () => {
             </div>
 
             {/* RIGHT */}
-            <div className="grid grid-cols-1 sm:grid-cols-1 gap-6 md:gap-8 md:mt-12">
+            <div className=" font-geom font-light grid grid-cols-1 sm:grid-cols-1 gap-6 md:gap-8 md:mt-12">
               
               <p className="text-[#4A4A4A] text-base md:text-[25px] leading-relaxed">
                 By enabling alternatives to conventional materials such as

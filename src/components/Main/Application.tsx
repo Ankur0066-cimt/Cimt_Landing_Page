@@ -25,15 +25,9 @@ const Feature: React.FC<FeatureProps> = ({ icon, title, description }) => (
 const Application: React.FC = () => {
   return (
     <section id="application" className="bg-white py-12 md:py-18">
-      <div className=" font-rubik max-w-8xl mx-auto px-6 md:px-10">
+      <div className=" font-geom max-w-8xl mx-auto px-6 md:px-10">
         <div className="relative bg-[#F9F6F5] rounded-3xl p-8 md:p-14 shadow-[0_4px_24px_rgba(42,59,126,0.06)] border border-[#F0EBE0]">
-          {/* <CornerBrackets
-            color="orange"
-            size={45}
-            thickness={17}
-            inset={-14}
-            corners={["tl", "br"]}
-          /> */}
+         
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
             {/* Left */}
@@ -42,7 +36,7 @@ const Application: React.FC = () => {
                 Application
               </p>
                <div className=" h-[3px] bg-[#2A3B7E]  w-full mb-2"></div>
-              <h2 className="text-3xl md:text-5xl lg:text-5xl font-semibold text-[#2A3B7E] leading-tight mb-6">
+              <h2 className="font-geom font-extrabold text-3xl md:text-5xl lg:text-5xl font-semibold text-[#2A3B7E] leading-tight mb-6">
              Designed for
 Multi-Industry 
 Application.
@@ -50,14 +44,14 @@ Application.
               </h2>
               <p className="text-[#4A4A4A] text-base md:text-[25px] leading-relaxed">
                 Powered by{" "}
-                <span className="font-semibold text-[#2A3B7E]">Advitta </span>
+                <span className="font-light font-semibold text-[#2A3B7E]">Advitta </span>
                   is built as a foundational material technology that enables scalable applications across industries where performance, finish, and adaptability are critical.
               </p>
             </div>
 
             
 
-<div className="block grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 mt-8">
+<div className="font-geom font-light block grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 mt-8">
 
   {/* STARTING WITH */}
   <div className="rounded-2xl p-6  hover:shadow-md transition">

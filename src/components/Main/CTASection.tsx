@@ -14,7 +14,7 @@ const CTA: React.FC = () => {
             <div>
 
               {/* Heading */}
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#2A3B7E] leading-tight mb-5">
+              <h2 className="font-geom font-extrabold text-3xl md:text-4xl lg:text-5xl font-semibold text-[#2A3B7E] leading-tight mb-5">
                 Be Part of the
                 <span className="text-[#EF7F44]">
                   {" "}Next Material Shift.
@@ -22,10 +22,10 @@ const CTA: React.FC = () => {
               </h2>
 
               {/* Row Layout */}
-              <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+              <div className="font-geom font-light flex flex-col md:flex-row md:items-center md:justify-between gap-6">
 
                 {/* Left Text */}
-                <p className="text-[#4A4A4A] text-base md:text-[17px] leading-relaxed max-w-xl">
+                <p className="text-[#4A4A4A] text-base md:text-[25px] leading-relaxed max-w-3xl ">
                   From surface media to multi-industry applications, Advitta
                   is building the foundation for the next generation of
                   material solutions

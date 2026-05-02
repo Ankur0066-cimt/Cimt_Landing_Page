@@ -25,20 +25,20 @@ const ProductCategories: React.FC = () => {
         <div className="relative bg-[#F9F6F5] rounded-3xl p-8 md:p-14 shadow-[0_4px_24px_rgba(42,59,126,0.06)] border border-[#F0EBE0]">
 
           {/* Corner Brackets */}
-            
+
 
           {/* GRID */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
 
             {/* LEFT */}
             <div>
-              <p className="text-[#EF7F44] font-bold text-md tracking-widest uppercase mb-2">
+              <p className="font-geom text-[#EF7F44] font-bold text-md tracking-widest uppercase mb-2">
                 What We Do
               </p>
 
               <div className="h-[3px] bg-[#2A3B7E] w-full mb-3"></div>
 
-              <h2 className="text-3xl md:text-5xl lg:text-5xl font-extrabold text-[#2A3B7E] leading-tight mb-6">
+              <h2 className=" font-geom font-extrabold text-3xl md:text-5xl lg:text-5xl font-semibold text-[#2A3B7E] leading-tight mb-6">
                 Engineered for Application. <br />
                 Built for Scale.
               </h2>
@@ -61,7 +61,7 @@ const ProductCategories: React.FC = () => {
                   <h4 className="text-xl md:text-2xl font-bold text-[#2A3B7E]  mb-2">
                     Material Technology Development
                   </h4>
-                  <p className="text-sm md:text-[21px] text-[#4A4A4A] leading-relaxed">
+                  <p className="font-geom font-light text-sm md:text-[21px] text-[#4A4A4A] leading-relaxed">
                   We develop proprietary material systems engineered to improve performance, durability, and finish across diverse applications — built from first principles, not iterations. </p>
                 </div>
               </div>
@@ -75,7 +75,7 @@ const ProductCategories: React.FC = () => {
                   <h4 className="text-xl md:text-2xl font-bold text-[#2A3B7E] mb-2">
                   Application-First Engineering
                   </h4>
-                  <p className="text-sm md:text-[21px] text-[#4A4A4A] leading-relaxed">
+                  <p className="font-geom font-light text-sm md:text-[21px] text-[#4A4A4A] leading-relaxed">
                    Every solution is designed with its end-use in mind, ensuring it performs consistently in real-world conditions, not just controlled environments.  </p>
                 </div>
               </div>
@@ -88,7 +88,7 @@ const ProductCategories: React.FC = () => {
                 <div>
                   <h4 className="text-xl md:text-2xl font-bold text-[#2A3B7E] mb-2">
                    Integrated Systems & Processes </h4>
-                  <p className="text-sm md:text-[21px] text-[#4A4A4A] leading-relaxed">
+                  <p className="font-geom font-light text-sm md:text-[21px] text-[#4A4A4A] leading-relaxed">
                    Our technology integrates with application systems and structured workflows to ensure precision, repeatability, and consistency across deployment.  </p>
                 </div>
               </div>
@@ -102,7 +102,7 @@ const ProductCategories: React.FC = () => {
                   <h4 className="text-xl md:text-2xl font-bold text-[#2A3B7E] mb-2">
                     Scalable Manufacturing
                   </h4>
-                  <p className="text-sm md:text-[21px] text-[#4A4A4A] leading-relaxed">
+                  <p className="font-geom font-light text-sm md:text-[21px] text-[#4A4A4A] leading-relaxed">
                    Advitta is engineered for production — enabling quality control, repeatability, and large-scale output across geographies. </p>
                 </div>
               </div>
