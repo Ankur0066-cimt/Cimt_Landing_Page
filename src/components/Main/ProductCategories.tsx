@@ -35,7 +35,7 @@ const ProductCategories: React.FC = () => {
 
             {/* LEFT */}
             <div>
-              <p className="text-[#EF7F44] font-bold text-md tracking-widest uppercase mb-2">
+              <p className="text-[#EF7F44] font-bold text-sm tracking-widest uppercase mb-2">
                 What We Do
               </p>
 
@@ -46,7 +46,7 @@ const ProductCategories: React.FC = () => {
                 Built for the Last Mile.
               </h2>
 
-              <p className="text-[#4A4A4A] text-base md:text-[25px] leading-relaxed">
+              <p className="text-[#4A4A4A] text-base md:text-[17px] leading-relaxed">
                 Powered by{" "}
                 <span className="font-bold text-[#2A3B7E]">Advitta</span>, our
                 proprietary material technology platform, we bring consistency,
@@ -64,10 +64,10 @@ const ProductCategories: React.FC = () => {
                   <Layers className="w-6 h-6" />
                 </div>
                 <div>
-                  <h4 className="text-xl md:text-2xl font-bold text-[#2A3B7E]  mb-2">
+                  <h4 className="text-xl md:text-xl font-bold text-[#2A3B7E]  mb-2">
                     Material to Execution
                   </h4>
-                  <p className="text-sm md:text-[21px] text-[#4A4A4A] leading-relaxed">
+                  <p className="text-sm md:text-[17px] text-[#4A4A4A] leading-relaxed">
                     We are a material science driven company that has evolved into a full-scale execution partner, ensuring complete control from material innovation to printing and final on-ground application.
                   </p>
                 </div>
@@ -79,10 +79,10 @@ const ProductCategories: React.FC = () => {
                   <MapPin className="w-6 h-6" />
                 </div>
                 <div>
-                  <h4 className="text-xl md:text-2xl font-bold text-[#2A3B7E] mb-2">
+                  <h4 className="text-xl md:text-xl font-bold text-[#2A3B7E] mb-2">
                     Rural & Large-Scale Campaign Execution
                   </h4>
-                  <p className="text-sm md:text-[21px] text-[#4A4A4A] leading-relaxed">
+                  <p className="text-sm md:text-[17px] text-[#4A4A4A] leading-relaxed">
                     Our network enables seamless deployment across geographies, ensuring brands achieve deep market penetration with speed and accuracy.
                   </p>
                 </div>
@@ -94,10 +94,10 @@ const ProductCategories: React.FC = () => {
                   <LineChart className="w-6 h-6" />
                 </div>
                 <div>
-                  <h4 className="text-xl md:text-2xl font-bold text-[#2A3B7E] mb-2">
+                  <h4 className="text-xl md:text-xl font-bold text-[#2A3B7E] mb-2">
                     Tech-Enabled Tracking & Transparency
                   </h4>
-                  <p className="text-sm md:text-[21px] text-[#4A4A4A] leading-relaxed">
+                  <p className="text-sm md:text-[17px] text-[#4A4A4A] leading-relaxed">
                     Every execution is backed by structured tracking systems, including location verification, geo tagging, and real-time visibility to ensure accountability.
                   </p>
                 </div>
@@ -109,10 +109,10 @@ const ProductCategories: React.FC = () => {
                   <ClipboardCheck className="w-6 h-6" />
                 </div>
                 <div>
-                  <h4 className="text-xl md:text-2xl font-bold text-[#2A3B7E] mb-2">
+                  <h4 className="text-xl md:text-xl font-bold text-[#2A3B7E] mb-2">
                     End-to-End Project Management
                   </h4>
-                  <p className="text-sm md:text-[21px] text-[#4A4A4A] leading-relaxed">
+                  <p className="text-sm md:text-[17px] text-[#4A4A4A] leading-relaxed">
                     From site identification and approvals to execution and reporting, we manage the entire lifecycle with a process-driven approach.
                   </p>
                 </div>

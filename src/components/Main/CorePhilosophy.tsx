@@ -25,22 +25,22 @@ const CorePhilosophy: React.FC = () => {
         {/* LEFT */}
         <div className="relative">
 
-          <p className="text-[#EF7F44] font-bold text-md tracking-widest uppercase mb-2 ml-1">
+          <p className="text-[#EF7F44] font-bold text-sm tracking-widest uppercase mb-2 ml-1">
             Core Philosophy
           </p>
 
           <div className="h-[3px] bg-[#2A3B7E] ml-1 w-full mb-3"></div>
 
-          <h2 className="text-3xl md:text-4xl lg:text-6xl font-extrabold text-[#2A3B7E] leading-tight mb-6">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-[#2A3B7E] leading-tight mb-6">
             From Visibility to <br />
             <span className="text-[#EF7F44]">Verifiable Impact.</span>
           </h2>
 
-          <p className="text-[#4A4A4A] text-base md:text-[27px] leading-relaxed mb-4">
+          <p className="text-[#4A4A4A] text-base md:text-[17px] leading-relaxed mb-4">
             At Can Image, execution is not just about presence — it's about precision, accountability, and scale. We believe rural and large-scale advertising requires more than intent; it demands a structured, process-driven approach that ensures every planned location is executed exactly as promised.
           </p>
 
-          <p className="text-[#4A4A4A] text-base md:text-[27px] leading-relaxed">
+          <p className="text-[#4A4A4A] text-base md:text-[17px] leading-relaxed">
             By combining proprietary material technology with on-ground expertise, we have redefined how brands achieve visibility by delivering not just reach, but verifiable on-ground data. This is not just execution — it is a shift from unstructured deployment to a system-led framework built for consistency and trust.
           </p>
 

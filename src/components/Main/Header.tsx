@@ -13,7 +13,7 @@ const Header: React.FC = () => {
     <img
       src={logoImg}
       alt="Logo"
-      className="h-5 md:h-10 w-[150px] md:w-[240px] object-contain"
+      className="h-5 md:h-6 w-[150px] md:w-[240px] object-contain"
     />
   </div>
 
@@ -22,10 +22,10 @@ const Header: React.FC = () => {
 
     {/* Nav */}
     <nav className="hidden md:flex items-center text-[#2A3B7E] md:text-sm font-semibold">
-      <a href="#core-philosophy" className="px-4 border-l md:text-lg first:border-none border-orange-500 hover:text-[#2A3B7E] transition-colors">
+      <a href="#core-philosophy" className="px-4 border-l md:text-md first:border-none border-orange-500 hover:text-[#2A3B7E] transition-colors">
         Core Philosophy
       </a>
-      <a href="#what-we-do" className="px-4  md:text-lg hover:text-[#2A3B7E] transition-colors">
+      <a href="#what-we-do" className="px-4  md:text-md hover:text-[#2A3B7E] transition-colors">
         What We Do
       </a>
     </nav>
@@ -33,7 +33,7 @@ const Header: React.FC = () => {
     {/* CTA */}
     <a
       href="#cta"
-      className="inline-flex items-center whitespace-nowrap bg-[#2A3B7E] hover:bg-[#1f2d62] transition-all text-white text-sm md:text-xl font-semibold px-4 md:px-5 py-2 rounded-full shadow-md"
+      className="inline-flex items-center whitespace-nowrap bg-[#2A3B7E] hover:bg-[#1f2d62] transition-all text-white text-sm md:text-md font-semibold px-4 md:px-5 py-2 rounded-full shadow-md"
     >
       Contact Us
     </a>

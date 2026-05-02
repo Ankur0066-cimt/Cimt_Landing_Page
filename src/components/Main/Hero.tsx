@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
 
             {/* Overlay FIXED */}
            
-            <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70" />
+            <div className="absolute inset-50 bg-gradient-to-b from-black/60 via-black/40 to-black/70" />
 <div className="block md:hidden">
   <CornerBrackets color="orange" size={28} thickness={12} inset={8} />
 </div>
@@ -37,12 +37,12 @@ const Hero: React.FC = () => {
                   text-4xl sm:text-5xl md:text-7xl 
                   leading-[1.15] md:leading-[1.05]"
                 >
-                  <span className="block">Rural Advertising,</span>
-                  <span className="block mb-4 md:mb-6">Reimagined.</span>
+                  <span className="block font-archivo font-extrabold">Rural Advertising,</span>
+                  <span className="block mb-4 md:mb-6 font-archivo font-extrabold">Reimagined.</span>
                 </h1>
 
                 {/* Paragraph */}
-                <p className="text-white/90 text-sm md:text-xl max-w-[952px] leading-relaxed">
+                <p className="text-white/90 text-sm md:text-lg max-w-[952px] leading-relaxed">
                   Can Image is a rural and large-scale execution partner, combining proprietary material technology with a process-driven on-ground network to deliver high-quality digital wall printing with unmatched consistency, speed, and transparency.
                 </p>
 
