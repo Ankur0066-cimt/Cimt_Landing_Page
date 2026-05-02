@@ -25,7 +25,7 @@ const CTA: React.FC = () => {
               <div className="font-geom font-light flex flex-col md:flex-row md:items-center md:justify-between gap-6">
 
                 {/* Left Text */}
-                <p className="text-[#4A4A4A] text-base md:text-[25px] leading-relaxed max-w-3xl ">
+                <p className="text-[#4A4A4A] text-base md:text-[20px] leading-relaxed max-w-3xl ">
                   From surface media to multi-industry applications, Advitta
                   is building the foundation for the next generation of
                   material solutions
@@ -34,13 +34,13 @@ const CTA: React.FC = () => {
                 {/* Right CTA */}
                 <div className="flex flex-col md:items-end md:mr-20">
 
-                  <p className="font-semibold text-[#EF7F44] text-sm  md:text-3xl mb-2">
+                  <p className="font-semibold text-[#EF7F44] text-sm  md:text-xl mb-2">
                     Speak to Our Team
                   </p>
 
                   <a
                     href="tel:+919876543210"
-                    className="inline-flex items-center gap-3 text-[#2A3B7E] font-semibold text-base md:text-3xl hover:text-[#EF7F44] transition"
+                    className="inline-flex items-center gap-3 text-[#2A3B7E] font-semibold text-base md:text-xl hover:text-[#EF7F44] transition"
                   >
                     <span className="w-9 h-9 rounded-full bg-[#EF7F44]/10 flex items-center justify-center">
                       <Phone className="w-6 h-6 text-[#EF7F44]" />

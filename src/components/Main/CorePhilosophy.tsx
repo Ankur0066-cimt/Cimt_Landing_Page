@@ -12,7 +12,7 @@ const CorePhilosophy: React.FC = () => {
 
             {/* LEFT */}
             <div className="relative">
-              <p className="text-[#EF7F44] font-geom font-bold   font-semibold text-sm tracking-widest uppercase mb-2 m-2">
+              <p className="text-[#EF7F44] font-geom font-bold   font-bold text-sm md:text-base tracking-widest uppercase mb-2 m-2">
                 Core Philosophy
               </p>
 
@@ -25,27 +25,27 @@ const CorePhilosophy: React.FC = () => {
                 </span>
               </h2>
 
-              <p className="text-[#4A4A4A] text-base md:text-[21px] leading-relaxed mb-4">
+              <p className="text-[#4A4A4A] text-base md:text-[17px] leading-relaxed mb-4">
                 Advitta is not just a product — it is a material technology
                 platform developed by Can Image Media Tech, designed to
                 redefine how materials are used across industries.
               </p>
 
-              <p className="text-[#4A4A4A] text-base md:text-[21px] leading-relaxed mb-4">
+              <p className="text-[#4A4A4A] text-base md:text-[17px] leading-relaxed mb-4">
                 Operating at the intersection of material science,
                 technology, and application, Advitta enables the development
                 of advanced solutions engineered for consistency,
                 manufacturability, and large-scale deployment.
               </p>
 
-              <p className="text-[#4A4A4A] text-base md:text-[21px] leading-relaxed mb-4">
+              <p className="text-[#4A4A4A] text-base md:text-[17px] leading-relaxed mb-4">
                 At its core, Advitta is built as a starting point for a new
                 generation of materials — designed to replace conventional
                 options with significantly more sustainable alternatives
                 across the print, signage, and décor industry, and beyond.
               </p>
 
-              <p className="text-[#4A4A4A] text-base md:text-[21px] leading-relaxed mb-4">
+              <p className="text-[#4A4A4A] text-base md:text-[17px] leading-relaxed mb-4">
                 Much like how foundational material technologies have
                 historically transformed industries through wide-ranging
                 applications, Advitta is engineered to do the same —
@@ -67,14 +67,14 @@ const CorePhilosophy: React.FC = () => {
                 </div>
 
                 <div className="relative mt-6 md:mt-8 px-4 sm:px-6 md:px-20">
-                  <p className="text-[#4A4A4A] text-base md:text-[21px] leading-relaxed">
+                  <p className="text-[#4A4A4A] text-base md:text-[17px] leading-relaxed">
                     For the first time, a material like Advitta challenges
                     the dominance of PVC, PP, and PE, offering a dynamic,
                     high-performance alternative built for real-world
                     scalability.
                   </p>
 
-                  <p className="text-[#4A4A4A] text-base md:text-[21px] leading-relaxed mt-4">
+                  <p className="text-[#4A4A4A] text-base md:text-[17px] leading-relaxed mt-4">
                     This is not just innovation — it is a shift in how
                     materials are designed, manufactured, and adopted
                     across industries.

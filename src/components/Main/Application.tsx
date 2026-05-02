@@ -32,17 +32,17 @@ const Application: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
             {/* Left */}
             <div>
-              <p className="text-[#EF7F44] font-bold text-md tracking-widest uppercase mb-2">
+              <p className="text-[#EF7F44] font-bold md:text-md tracking-widest uppercase mb-2">
                 Application
               </p>
                <div className=" h-[3px] bg-[#2A3B7E]  w-full mb-2"></div>
-              <h2 className="font-geom font-extrabold text-3xl md:text-5xl lg:text-5xl font-semibold text-[#2A3B7E] leading-tight mb-6">
+              <h2 className="font-geom font-extrabold text-3xl md:text-4xl lg:text-5xl font-semibold text-[#2A3B7E] leading-tight mb-6">
              Designed for
 Multi-Industry 
 Application.
 
               </h2>
-              <p className="text-[#4A4A4A] text-base md:text-[25px] leading-relaxed">
+              <p className="text-[#4A4A4A] text-base md:text-[20px] leading-relaxed">
                 Powered by{" "}
                 <span className="font-light font-semibold text-[#2A3B7E]">Advitta </span>
                   is built as a foundational material technology that enables scalable applications across industries where performance, finish, and adaptability are critical.
@@ -56,18 +56,18 @@ Application.
   {/* STARTING WITH */}
   <div className="rounded-2xl p-6  hover:shadow-md transition">
     
-    <h2 className="text-lg md:text-3xl font-semibold text-[#2A3B7E] mb-8">
+    <h2 className="text-lg md:text-xl font-semibold text-[#2A3B7E] mb-8">
       Starting with :
     </h2>
 
-    <ul className="space-y-8">
+    <ul className="space-y-6">
       {[
         "Print & Signage",
         "Surface & Wall Applications",
         "Brand & Media Environments",
         "Architectural & Interior Surfaces",
       ].map((item, index) => (
-        <li key={index} className="flex items-start gap-3 text-[#4A4A4A] text-sm md:text-2xl">
+        <li key={index} className="flex items-start gap-3 text-[#4A4A4A] text-sm md:text-base">
           <MoveRightIcon className="w-5 h-5 text-[#EF7F44] mt-[2px]" />
           <span>{item}</span>
         </li>
@@ -79,7 +79,7 @@ Application.
   {/* EXPANDING INTO */}
   <div className=" rounded-2xl p-6  hover:shadow-md transition">
     
-    <h2 className="text-lg md:text-3xl font-semibold text-[#2A3B7E] mb-8">
+    <h2 className="text-lg md:text-xl font-semibold text-[#2A3B7E] mb-8">
       Expanding into :
     </h2>
 
@@ -89,7 +89,7 @@ Application.
         "Industrial Use Cases",
         "Large-Scale Material Substitution",
       ].map((item, index) => (
-        <li key={index} className="flex items-start gap-3 text-[#4A4A4A] text-sm md:text-2xl">
+        <li key={index} className="flex items-start gap-3 text-[#4A4A4A] text-sm md:text-base">
           <MoveRightIcon className="w-5 h-5 text-[#EF7F44] mt-[2px]" />
           <span>{item}</span>
         </li>

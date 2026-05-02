@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
               <div className="w-full px-4 md:px-0 md:w-auto md:max-w-none">
 
   {/* Heading */}
-  <h1 className="text-white font-extrabold leading-[1.05] tracking-tight text-center mt-10">
+  <h1 className="text-white font-extrabold leading-[1.05] tracking-tight text-center ">
     <span className="block whitespace-nowrap text-[clamp(28px,8vw,140px)]">
       The Precision
     </span>
@@ -39,7 +39,7 @@ const Hero: React.FC = () => {
   </h1>
 
   {/* Paragraph */}
-  <p className="text-white/90 text-md sm:text-xl md:text-3xl max-w-6xl mx-auto leading-relaxed mt-8">
+  <p className="text-white/90 text-md sm:text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed mt-8">
     Advitta is a proprietary material technology developed by Can Image Media Tech, creating next-generation water-based and water-activated solutions engineered for performance, scalability, and seamless real-world surface applications.
   </p>
 
@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
   <div className="mt-6 flex justify-end">
     <a
       href="#cta"
-      className="inline-flex items-center gap-6 bg-gradient-to-r from-[#1097C4] to-[#D6BD56] hover:opacity-90 text-white font-semibold text-sm md:text-xl px-5 py-2 rounded-full shadow-lg shadow-black/20 transition"
+      className="inline-flex items-center gap-4 bg-gradient-to-r from-[#1097C4] to-[#D6BD56] hover:opacity-90 text-white font-semibold text-sm md:text-xl px-5 py-1 rounded-full shadow-lg shadow-black/20 transition"
     >
       Get in Touch
       <ArrowRight className="w-5 h-5 md:w-8 md:h-8" />
