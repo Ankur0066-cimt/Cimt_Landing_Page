@@ -25,10 +25,7 @@ const ProductCategories: React.FC = () => {
         <div className="relative bg-[#F9F6F5] rounded-3xl p-8 md:p-14 shadow-[0_4px_24px_rgba(42,59,126,0.06)] border border-[#F0EBE0]">
 
           {/* Corner Brackets */}
-          <div className="pointer-events-none">
-            <span className="absolute w-[45px] h-[45px] -top-[14px] -left-[14px] border-t-[17px] border-l-[17px] border-[#EF7F44] rounded-tl-sm"></span>
-            <span className="absolute w-[45px] h-[45px] -bottom-[14px] -right-[14px] border-b-[17px] border-r-[17px] border-[#EF7F44] rounded-br-sm"></span>
-          </div>
+            
 
           {/* GRID */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
