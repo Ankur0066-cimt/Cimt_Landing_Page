@@ -4,12 +4,10 @@ import { Smartphone } from "lucide-react";
 import innovation from "../../assets/inkspire/Cred_01.png";
 import techonology from '../../assets/inkspire/Cred_02.png';
 
-import application from  '../../assets/inkspire/Cred_03.png';
+import application from  '../../assets/inkspire/percent.png';
 import deployement from   '../../assets/inkspire/Cred_04.png';
 import zero from '../../assets/inkspire/Cred_05.png';
 
-const INDIA_MAP =
-  "https://mgx-backend-cdn.metadl.com/generate/images/592788/2026-04-20/m6x7zwqaafgq/india-map-icon.png";
 
 interface StatCardProps {
   title: string;
@@ -20,10 +18,10 @@ interface StatCardProps {
 }
 const StatCard: React.FC<StatCardProps> = ({ title, icon, isNumber ,iconBoxClassName = "w-10 h-10 md:w-12 md:h-12 flex items-center justify-center", }) => {
   return (
-    <div className="bg-white rounded-2xl p-6 md:p-7 shadow-[0_4px_20px_rgba(42,59,126,0.08)] border border-[#F0EBE0] flex flex-col items-start gap-4 hover:shadow-[0_8px_28px_rgba(42,59,126,0.12)] transition-shadow">
+    <div className="bg-white rounded-2xl p-4 md:p-2 shadow-[0_4px_20px_rgba(42,59,126,0.08)] border border-[#F0EBE0] flex flex-col items-center gap-4 hover:shadow-[0_8px_28px_rgba(42,59,126,0.12)] transition-shadow">
       
      
-      <div className="h-auto w-auto flex items-center justify-center rounded-full  text-white">
+      <div className="h-[150px] w-[180px] flex items-center justify-center rounded-full  text-white">
         {icon && (
           <div
             className={`flex w-full h-full md:w-full md:h-full items-center justify-center overflow-hidden rounded-2xl  ${iconBoxClassName}`}
@@ -51,7 +49,7 @@ const Stats: React.FC = () => {
     <img
       src={innovation}
       alt="Innovation"
-      className="h-full w-full object-contain"
+      className="h-full w-[150px] object-contain"
     />
   }
 />

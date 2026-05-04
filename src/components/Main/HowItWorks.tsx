@@ -1,43 +1,46 @@
-import penthouse from "../../assets/inkspire/step1.png";
+import step1 from "../../assets/inkspire/step1.png";
+import step2 from "../../assets/inkspire/step2.png";
+import step3 from "../../assets/inkspire/step3.png";
+import step4 from "../../assets/inkspire/step4.png";
 
 const steps = [
   {
     no: "1",
     title: "CREATE YOUR OWN DESIGN",
     desc: "",
-     img: penthouse,
+     img: step1,
   },
   {
     no: "2",
     title: "FREE SITE ASSESSMENT",
     desc: "Our team visits and evaluates your space",
-    img: penthouse,
+    img: step2,
   },
   {
     no: "3",
     title: "EXECUTION WITH PRECISION",
     desc: "Installed by trained professionals with app-based monitoring",
-     img: penthouse,
+     img: step3,
   },
   {
     no: "4",
     title: "INSTANT HANDOVER",
     desc: "Delivered with warranty documentation-ready to use immediately",
-     img: penthouse,
+     img: step4,
   },
 ];
+
 const StepCircle = ({ img }) => {
   return (
    
     
-     
-        <img
-          src={img}
-          alt="step"
-          className="w-30 h-30 object-contain"
-        />
-
-    
+    <div className="w-[270px] h-[270px]">
+  <img
+    src={img}
+    alt="step"
+    className="w-full h-full object-contain"
+  />
+</div>
 
 
     

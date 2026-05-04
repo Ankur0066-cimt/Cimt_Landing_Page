@@ -35,11 +35,11 @@ const Sustainability: React.FC = () => {
             {/* Left */}
             <div>
               <p className="text-[#EF7F44] font-semibold text-md tracking-widest uppercase mb-2">
-               Application Sector
+               Application Sectors
               </p>
                <div className=" h-[3px] bg-[#2A3B7E]  w-full mb-2"></div>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#2A3B7E] leading-tight mb-10">
-            Where Can you Use Innovation 
+            Where you Can Use Innovation 
  
               
               </h2>
@@ -59,7 +59,7 @@ const Sustainability: React.FC = () => {
            <div className="pb-2 mb-2 border-b border-[#2A3B7E]/20 flex items-center gap-2 sm:gap-3">
   <img src={school} alt="home" className="w-8 h-9" />
   <span className="text-sm sm:text-base">
-   School & Institution
+   School & Institutions 
   </span>
 </div>
           <div className="pb-2 mb-2 border-b border-[#2A3B7E]/20 flex items-center gap-2 sm:gap-3">
@@ -81,7 +81,7 @@ const Sustainability: React.FC = () => {
          <div className="pb-2 mb-2 border-b border-[#2A3B7E]/20 flex items-center gap-2 sm:gap-3">
   <img src={cafe} alt="home" className="w-8 h-9" />
   <span className="text-sm sm:text-base">
-   Restruant & Cafes
+   Restaurants & Cafes
   </span>
 </div>
           <div className="pb-2 mb-2 border-b border-[#2A3B7E]/20 flex items-center gap-2 sm:gap-3">

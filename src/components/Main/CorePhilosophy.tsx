@@ -42,7 +42,7 @@ const CorePhilosophy: React.FC = () => {
  <div className="flex flex-col gap-5">
                  <div className="rounded-xl  border-[#2A3B7E] overflow-hidden">
         <div className="bg-[#2A3B7E] text-white font-bold text-lg px-5 py-1">
-          HomeOwners
+          Homeowners
         </div>
         <div className="bg-[#F9F6F5] px-5 py-5 text-[#2A3B7E] text-base leading-relaxed">
         Transform your home without the mess, delays, or stress of traditional painting

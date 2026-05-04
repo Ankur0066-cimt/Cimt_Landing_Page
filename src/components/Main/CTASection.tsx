@@ -20,7 +20,22 @@ const CTASection: React.FC = () => {
               <p className="text-[#4A4A4A] text-base md:text-lg leading-relaxed mb-6">
                 Experience a faster, cleaner, and smarter alternative to traditional painting.
               </p>
-<span className="flex font-bold text-lg md:text-xl items-center gap-3 text-[#2A3B7E] hover:text-[#EF7F44] transition-colors md:ml-12  ">
+            </div>
+
+            {/* Right CTA */}
+            <div className="block justify-start lg:justify-end ">
+              {/* <a
+                href="#cta"
+                className="inline-flex items-center gap-2 bg-[#2A3B7E] 
+                           hover:opacity-90 text-white font-semibold px-6 py-3 rounded-full 
+                           shadow-lg shadow-black/20 transition"
+              >
+                Book a Free Site Demo
+                <ArrowRight className="w-4 h-4" />
+              </a> */}
+
+              
+<span className="flex font-bold text-lg md:text-xl items-center gap-3 text-[#EF7F44] hover:text-[#EF7F44] transition-colors md:ml-8  ">
                  Speak to our Team
                 </span>
               {/* Phone CTA */}
@@ -32,19 +47,6 @@ const CTASection: React.FC = () => {
                   <Phone className="w-5 h-5 text-[#EF7F44]" />
                 </span>
                 +91 98765 43210
-              </a>
-            </div>
-
-            {/* Right CTA */}
-            <div className="flex justify-start lg:justify-end md:mt-40">
-              <a
-                href="#cta"
-                className="inline-flex items-center gap-2 bg-[#2A3B7E] 
-                           hover:opacity-90 text-white font-semibold px-6 py-3 rounded-full 
-                           shadow-lg shadow-black/20 transition"
-              >
-                Book a Free Site Demo
-                <ArrowRight className="w-4 h-4" />
               </a>
             </div>
 

@@ -28,7 +28,7 @@ const Header: React.FC = () => {
    THE PROBLEM WE SOLVE
   </a>
   <a href="#what-we-do" className="px-4 border-l border-orange-500 items-center  hover:text-[#2A3B7E] transition-colors">
-  PRODUTCT CATEGORIES
+  PRODUCT CATEGORIES
   </a>
   <a href="#what-we-do" className="px-4 border-l border-orange-500 hover:text-[#2A3B7E] transition-colors">
    WHO IS INKSPIRE FOR
