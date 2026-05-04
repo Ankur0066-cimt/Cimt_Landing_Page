@@ -27,7 +27,7 @@ const Hero: React.FC = () => {
   >
     
     <span className="block sm:whitespace-nowrap">
-      JUST LIKE 
+      JUST LIKE&nbsp; edited&nbsp;
     </span>
 
     <span className="block mb-3 sm:mb-6 md:mb-20 sm:whitespace-nowrap">
@@ -43,7 +43,7 @@ const Hero: React.FC = () => {
 
   <p className="font-bold text-white/90 text-base md:text-lg max-w-3xl leading-relaxed mt-4 text-left">
   Inkspire — Not Paint. Not Wallpaper. A new-age wall finish. </p>
-  <p className="font-bold text-white/90 text-base md:text-lg max-w-3xl leading-relaxed text-left">Powered by Advitta — our proprietary material technology that enables a cleaner, faster, and more consistent alternative to traditional painting.</p>
+  <p className="font-bold text-white/90 text-base md:text-lg max-w-3xl leading-relaxed text-left">Powered by Advitta — our proprietary material technology that enables a cleaner, faster, and more consistent alternative to traditional painting. this is also edited&nbsp;</p>
 </div>
             </div>
             
