@@ -1,7 +1,7 @@
 import React from "react";
 import CornerBrackets from "./CornerBrackets";
-import HAJMOLA from "../../assets/Cimt-1/Image_02.png";
-import gulf from "../../assets/Cimt-1/Image_03.png";
+import HAJMOLA from "../../assets/Cimt-1/image1.png";
+import gulf from "../../assets/Cimt-1/image2.png";
 
 
 
@@ -49,19 +49,19 @@ const CorePhilosophy: React.FC = () => {
         {/* RIGHT */}
         <div className="flex flex-col gap-5">
 
-          <div className="rounded-2xl overflow-hidden shadow-lg md:shadow-none h-[200px] sm:h-[250px]">
+          <div className="rounded-2xl overflow-hidden shadow-lg md:shadow-none h-[200px] sm:h-[250px] md:w-[500px] sm:w-[600px]">
             <img
               src={HAJMOLA}
               alt="Hajmola rural wall advertisement"
-              className="w-full h-full object-cover md:object-contain"
+              className="w-full h-full object-cover md:object-cover"
             />
           </div>
 
-          <div className="rounded-2xl overflow-hidden shadow-lg md:shadow-none h-[200px] sm:h-[250px]">
+          <div className="rounded-2xl overflow-hidden shadow-lg md:shadow-none h-[200px] sm:h-[250px] md:w-[500px] sm:w-[600px]">
             <img
               src={gulf}
               alt="Gulf Oil rural wall advertisement"
-              className="w-full h-full object-cover md:object-contain"
+              className="w-full h-full object-cover md:object-cover"
             />
           </div>
 

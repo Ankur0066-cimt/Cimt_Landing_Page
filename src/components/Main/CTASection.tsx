@@ -1,5 +1,6 @@
 import React from "react";
 import { Phone, ArrowRight, Check } from "lucide-react";
+import step1 from "../../assets/Cimt-1/image3.png";
 
 const CTA: React.FC = () => {
   return (
@@ -46,53 +47,12 @@ const CTA: React.FC = () => {
             </div>
 
             {/* RIGHT CARD */}
-            <div className="bg-[#2A3B7E] rounded-2xl p-8 md:p-10 text-white relative overflow-hidden">
+            <div className=" rounded-2xl text-white relative overflow-hidden">
 
               {/* Glow */}
-              <div className="absolute -top-20 -right-20 w-60 h-60 rounded-full bg-[#EF7F44]/10 blur-3xl"></div>
+              <div className="absolute -top-20 -right-20 w-auto h-auto rounded-full  blur-3xl"></div>
 
-              <h3 className="text-2xl md:text-2xl font-bold mb-6 relative">
-                Ready to go live?
-              </h3>
-
-              <a
-                href="#"
-                className="relative inline-flex items-center gap-2 bg-[#EF7F44] hover:bg-[#d96f36] transition-colors text-white font-semibold text-base md:text-md px-6 py-2 rounded-full shadow-lg mb-8"
-              >
-                Start Your Campaign
-                <ArrowRight className="w-4 h-4" />
-              </a>
-
-              <ul className="space-y-4 relative">
-
-                <li className="flex items-center gap-3">
-                  <span className="w-6 h-6 rounded-full bg-[#EF7F44] flex items-center justify-center flex-shrink-0">
-                    <Check className="w-4 h-4 text-white" strokeWidth={3} />
-                  </span>
-                  <span className="text-white/95 font-medium text-sm md:text-base">
-                    No Setup Fees
-                  </span>
-                </li>
-
-                <li className="flex items-center gap-3">
-                  <span className="w-6 h-6 rounded-full bg-[#EF7F44] flex items-center justify-center flex-shrink-0">
-                    <Check className="w-4 h-4 text-white" strokeWidth={3} />
-                  </span>
-                  <span className="text-white/95 font-medium text-sm md:text-base">
-                    Flexible Contracts
-                  </span>
-                </li>
-
-                <li className="flex items-center gap-3">
-                  <span className="w-6 h-6 rounded-full bg-[#EF7F44] flex items-center justify-center flex-shrink-0">
-                    <Check className="w-4 h-4 text-white" strokeWidth={3} />
-                  </span>
-                  <span className="text-white/95 font-medium text-sm md:text-base">
-                    24/7 Support
-                  </span>
-                </li>
-
-              </ul>
+             <img src={step1} alt="step" className="w-full h-[340px] object-cover" />
 
             </div>
 
