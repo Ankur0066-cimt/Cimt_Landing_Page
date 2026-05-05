@@ -41,7 +41,7 @@ const CTA: React.FC = () => {
                 <span className="w-10 h-10 rounded-full bg-[#EF7F44]/10 flex items-center justify-center">
                   <Phone className="w-5 h-5 text-[#EF7F44]" />
                 </span>
-                +91 98765 43210
+                +91 90960 55543
               </a>
 
             </div>

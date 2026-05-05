@@ -1,6 +1,6 @@
 import React from "react";
 import CornerBrackets from "./CornerBrackets";
-import HAJMOLA from "../../assets/Cimt-1/image1.png";
+import HAJMOLA from "../../assets/Cimt-1/neimage1.png";
 import gulf from "../../assets/Cimt-1/image2.png";
 
 
