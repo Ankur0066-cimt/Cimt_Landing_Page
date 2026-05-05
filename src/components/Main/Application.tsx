@@ -67,7 +67,7 @@ Application.
         "Brand & Media Environments",
         "Architectural & Interior Surfaces",
       ].map((item, index) => (
-        <li key={index} className="flex items-start gap-3 text-[#4A4A4A] text-sm md:text-base">
+        <li key={index} className="flex items-start gap-3 text-[#4A4A4A] text-sm md:text-[20px]">
           <MoveRightIcon className="w-5 h-5 text-[#EF7F44] mt-[2px]" />
           <span>{item}</span>
         </li>
@@ -83,13 +83,14 @@ Application.
       Expanding into :
     </h2>
 
-    <ul className="space-y-8">
+    <ul className="space-y-6">
       {[
         "Consumer Applications",
-        "Industrial Use Cases",
         "Large-Scale Material Substitution",
+        "Industrial Use Cases",
+        
       ].map((item, index) => (
-        <li key={index} className="flex items-start gap-3 text-[#4A4A4A] text-sm md:text-base">
+        <li key={index} className="flex items-start gap-3 text-[#4A4A4A] text-sm md:text-[20px]">
           <MoveRightIcon className="w-5 h-5 text-[#EF7F44] mt-[2px]" />
           <span>{item}</span>
         </li>

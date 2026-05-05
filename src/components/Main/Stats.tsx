@@ -103,7 +103,7 @@ const Stats: React.FC = () => {
     <img
       src={material}
       alt="India map"
-      className="h-full w-full object-contain p-2"
+      className="h-full w-full object-contain p-5 pb-8"
     />
   }
  

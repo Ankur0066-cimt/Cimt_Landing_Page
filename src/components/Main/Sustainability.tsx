@@ -17,7 +17,7 @@ const Sustainability: React.FC = () => {
 
               <div className="h-[3px] bg-[#2A3B7E] w-full mb-2"></div>
 
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-[#2A3B7E] leading-tight mb-6">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#2A3B7E] leading-tight mb-6">
                 Responsible Material <br />
                 Innovation at Scale.
               </h2>
