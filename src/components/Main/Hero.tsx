@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
   <CornerBrackets color="orange" size={42} thickness={17} inset={20} />
 </div>
             {/* Bottom Left Content */}
-            <div className="absolute bottom-6 md:bottom-12 left-5 sm:left-6 md:left-12 z-10 font-archivo">
+            <div className="z-50 font-archivo absolute bottom-6 md:bottom-12 left-5 sm:left-6 md:left-12 ">
 
               <div className="relative max-w-[720px] md:ml-40">
 

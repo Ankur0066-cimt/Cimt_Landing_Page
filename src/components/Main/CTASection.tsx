@@ -30,7 +30,7 @@ const CTA: React.FC = () => {
                 With Can Image, every wall is accounted for, every location is verified, and every campaign is delivered with precision by Advitta.
               </p>
 
-              <p className="font-bold text-[#EF7F44] text-xl md:text-xl mb-3">
+              <p className="font-bold text-[#EF7F44] text-xl md:text-xl  md:ml-10">
                 Speak to Our Team
               </p>
 

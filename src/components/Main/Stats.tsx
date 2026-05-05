@@ -54,7 +54,7 @@ const Stats: React.FC = () => {
     <img
       src={innovation}
       alt="Innovation"
-      className="h-full w-full object-contain p-8"
+      className="h-full w-full object-contain md:p-12"
     />
   }
 />
@@ -67,7 +67,7 @@ const Stats: React.FC = () => {
     <img
       src={techonology}
       alt="Teams"
-      className="h-full w-full object-contain p-8"
+      className="h-full w-full object-contain md:p-10"
     />
   }
 />
@@ -89,7 +89,7 @@ const Stats: React.FC = () => {
     <img
       src={deployement}
       alt="India map"
-      className="h-full w-full object-contain p-8f"
+      className="h-full w-full object-contain p-8"
     />
   }
  
