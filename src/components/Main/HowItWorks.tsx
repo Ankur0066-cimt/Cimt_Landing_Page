@@ -51,7 +51,7 @@ const HowItWorks = () => {
 
 
  return (
-  <section id="what-we-do" className="bg-[#F9F6F1] py-12 md:py-18">
+  <section id="how-it-works" className="bg-[#F9F6F1] py-12 md:py-18">
       <div className=" font-rubik max-w-8xl mx-auto px-6 md:px-10">
                 <div className="relative bg-[#F9F6F5] rounded-3xl p-8 md:p-14 shadow-[0_4px_24px_rgba(42,59,126,0.06)] border border-[#F0EBE0]">
      

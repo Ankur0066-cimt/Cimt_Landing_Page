@@ -7,12 +7,12 @@ import CornerBrackets from "./CornerBrackets";
 
 const WhatWeDo: React.FC = () => {
   return (
-    <section id="what-we-do" className="bg-white py-12 md:py-18">
+    <section id="the-problem-we-solve" className="bg-white py-12 md:py-18">
       <div className=" font-rubik max-w-8xl mx-auto px-6 md:px-10">
         <div className="relative bg-[#F9F6F5] rounded-3xl p-8 md:p-14 shadow-[0_4px_24px_rgba(42,59,126,0.06)] border border-[#F0EBE0]">
           {/* <CornerBrackets
             color="orange"
-            size={45}
+            size={45}s
             thickness={17}
             inset={-14}
             corners={["tl", "br"]}

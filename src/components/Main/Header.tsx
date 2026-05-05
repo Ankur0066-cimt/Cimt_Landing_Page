@@ -24,19 +24,19 @@ const Header: React.FC = () => {
     <div className=" flex items-end gap-3  md:gap-5 ">
 <div className="">
 <nav className="hidden md:flex items-center text-[#2A3B7E] md:text-sm font-semibold ml-10 text-center">
-  <a href="#core-philosophy" className="px-4  border-l first:border-none items-center  border-orange-500 hover:text-[#2A3B7E] transition-colors">
+  <a href="#the-problem-we-solve" className="px-4  border-l first:border-none items-center  border-orange-500 hover:text-[#2A3B7E] transition-colors">
    THE PROBLEM WE SOLVE
   </a>
-  <a href="#what-we-do" className="px-4 border-l border-orange-500 items-center  hover:text-[#2A3B7E] transition-colors">
+  <a href="#product-categories" className="px-4 border-l border-orange-500 items-center  hover:text-[#2A3B7E] transition-colors">
   PRODUCT CATEGORIES
   </a>
-  <a href="#what-we-do" className="px-4 border-l border-orange-500 hover:text-[#2A3B7E] transition-colors">
+  <a href="#who-is-inkspire-for" className="px-4 border-l border-orange-500 hover:text-[#2A3B7E] transition-colors">
    WHO IS INKSPIRE FOR
   </a>
-  <a href="#what-we-do" className="px-4 border-l border-orange-500 hover:text-[#2A3B7E] transition-colors">
+  <a href="#how-it-works" className="px-4 border-l border-orange-500 hover:text-[#2A3B7E] transition-colors">
    HOW IT WORKS
   </a>
-  <a href="#what-we-do" className="px-4 border-l border-orange-500 hover:text-[#2A3B7E] transition-colors">
+  <a href="#application-sectors" className="px-4 border-l border-orange-500 hover:text-[#2A3B7E] transition-colors">
     APPLICATION SECTORS
   </a>
 </nav>
