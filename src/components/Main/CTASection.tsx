@@ -39,7 +39,7 @@ const CTA: React.FC = () => {
                   </p>
 
                   <a
-                    href="tel:+919876543210"
+                    href="tel:+91 90960 55543"
                     className="inline-flex items-center gap-3 text-[#2A3B7E] font-semibold text-base md:text-xl hover:text-[#EF7F44] transition"
                   >
                     <span className="w-9 h-9 rounded-full bg-[#EF7F44]/10 flex items-center justify-center">
