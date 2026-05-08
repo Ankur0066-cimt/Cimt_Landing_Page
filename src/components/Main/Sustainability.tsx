@@ -11,13 +11,13 @@ const Sustainability: React.FC = () => {
 
             {/* LEFT */}
             <div>
-              <p className="text-[#EF7F44] font-bold md:text-sm tracking-widest uppercase mb-2">
+              <p className="text-[#EF7F44] font-bold md:text-md tracking-widest uppercase mb-2">
                 Sustainability
               </p>
 
               <div className="h-[3px] bg-[#2A3B7E] w-full mb-2"></div>
 
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#2A3B7E] leading-tight mb-6">
+              <h2 className="font-geom font-extrabold text-3xl md:text-4xl lg:text-5xl font-semibold text-[#2A3B7E] leading-tight mb-6">
                 Responsible Material <br />
                 Innovation at Scale.
               </h2>

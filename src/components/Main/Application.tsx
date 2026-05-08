@@ -56,7 +56,7 @@ Application.
   {/* STARTING WITH */}
   <div className="rounded-2xl p-6  hover:shadow-md transition">
     
-    <h2 className="text-lg md:text-xl font-semibold text-[#2A3B7E] mb-8">
+    <h2 className="text-lg md:text-2xl font-semibold text-[#2A3B7E] mb-8">
       Starting with :
     </h2>
 
@@ -68,8 +68,8 @@ Application.
         "Architectural & Interior Surfaces",
       ].map((item, index) => (
         <li key={index} className="flex items-start gap-3 text-[#4A4A4A] text-sm md:text-[20px]">
-          <MoveRightIcon className="w-5 h-5 text-[#EF7F44] mt-[2px]" />
-          <span>{item}</span>
+          <MoveRightIcon className="font-extrabold  w-8 h-8 text-[#EF7F44] mt-[2px]" />
+          <span className="mt-2">{item}</span>
         </li>
       ))}
     </ul>
@@ -79,7 +79,7 @@ Application.
   {/* EXPANDING INTO */}
   <div className=" rounded-2xl p-6  hover:shadow-md transition">
     
-    <h2 className="text-lg md:text-xl font-semibold text-[#2A3B7E] mb-8">
+    <h2 className="text-lg md:text-2xl font-semibold text-[#2A3B7E] mb-8">
       Expanding into :
     </h2>
 
@@ -91,8 +91,8 @@ Application.
         
       ].map((item, index) => (
         <li key={index} className="flex items-start gap-3 text-[#4A4A4A] text-sm md:text-[20px]">
-          <MoveRightIcon className="w-5 h-5 text-[#EF7F44] mt-[2px]" />
-          <span>{item}</span>
+          <MoveRightIcon className="font-extrabold  w-8 h-8 text-[#EF7F44] mt-[2px]" />
+          <span className="mt-2">{item}</span>
         </li>
       ))}
     </ul>

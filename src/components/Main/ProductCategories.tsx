@@ -58,7 +58,7 @@ const ProductCategories: React.FC = () => {
                   <Layers className="w-6 h-6" />
                 </div>
                 <div>
-                  <h4 className="text-xl md:text-xl font-bold text-[#2A3B7E]  mb-2">
+                  <h4 className="text-xl md:text-2xl font-bold text-[#2A3B7E]  mb-2">
                     Material Technology Development
                   </h4>
                   <p className="font-geom font-light text-sm md:text-[17px] text-[#4A4A4A] leading-relaxed">
@@ -72,7 +72,7 @@ const ProductCategories: React.FC = () => {
                   <MapPin className="w-6 h-6" />
                 </div>
                 <div>
-                  <h4 className="text-xl md:text-xl font-bold text-[#2A3B7E] mb-2">
+                  <h4 className="text-xl md:text-2xl font-bold text-[#2A3B7E] mb-2">
                   Application-First Engineering
                   </h4>
                   <p className="font-geom font-light text-sm md:text-[17px] text-[#4A4A4A] leading-relaxed">
@@ -86,7 +86,7 @@ const ProductCategories: React.FC = () => {
                   <LineChart className="w-6 h-6" />
                 </div>
                 <div>
-                  <h4 className="text-xl md:text-xl font-bold text-[#2A3B7E] mb-2">
+                  <h4 className="text-xl md:text-2xl font-bold text-[#2A3B7E] mb-2">
                    Integrated Systems & Processes </h4>
                   <p className="font-geom font-light text-sm md:text-[17px] text-[#4A4A4A] leading-relaxed">
                    Our technology integrates with application systems and structured workflows to ensure precision, repeatability, and consistency across deployment.  </p>
@@ -99,7 +99,7 @@ const ProductCategories: React.FC = () => {
                   <ClipboardCheck className="w-6 h-6" />
                 </div>
                 <div>
-                  <h4 className="text-xl md:text-xl font-bold text-[#2A3B7E] mb-2">
+                  <h4 className="text-xl md:text-2xl font-bold text-[#2A3B7E] mb-2">
                     Scalable Manufacturing
                   </h4>
                   <p className="font-geom font-light text-sm md:text-[17px] text-[#4A4A4A] leading-relaxed">
