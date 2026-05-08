@@ -2,6 +2,7 @@ import React from "react";
 import { ArrowRight } from "lucide-react";
 import CornerBrackets from "./CornerBrackets";
 import HERO_IMG from "../../assets/Cimt-1/Image_Top.jpg";
+import { href } from "react-router-dom";
 
 const Hero: React.FC = () => {
   return (
@@ -10,10 +11,17 @@ const Hero: React.FC = () => {
         <div className="relative">
 
           {/* Background */}
-          <div
-            className="relative h-[480px] sm:h-[520px] md:h-[900px] bg-cover md:bg-contain   bg-center"
-            style={{ backgroundImage: `url(${HERO_IMG})` }}
-          >
+       <img
+  src={HERO_IMG}
+  alt="Hero"
+  className="
+    w-full
+    h-[500px]
+    object-fill
+    md:h-[900px]
+    md:object-cover
+  "
+/>
 
             {/* Overlay FIXED */}
            
@@ -34,30 +42,35 @@ const Hero: React.FC = () => {
                
                 {/* Heading */}
                 <h1 className="text-white font-semibold tracking-tight 
-                  text-4xl sm:text-5xl md:text-7xl 
+                  text-3xl sm:text-5xl md:text-7xl 
                   leading-[1.15] md:leading-[1.05]"
                 >
                   <span className="block font-archivo font-extrabold">Rural Advertising,</span>
-                  <span className="block mb-4 md:mb-6 font-archivo font-extrabold">Reimagined.</span>
+                  <span className="block  md:mb-6 font-archivo font-extrabold">Reimagined.</span>
                 </h1>
 
                 {/* Paragraph */}
-                <p className="text-white/90 text-sm md:text-lg max-w-[952px] leading-relaxed">
+                <p className="text-white/90 text-sm md:text-lg max-w-[958px] leading">
                   Can Image is a rural and large-scale execution partner, combining proprietary material technology with a process-driven on-ground network to deliver high-quality digital wall printing with unmatched consistency, speed, and transparency.
                 </p>
 
                 {/* Button */}
-                <button className="mt-5 inline-flex items-center ml-20 md:ml-0 gap-2 bg-orange-500 hover:bg-orange-600 text-white font-semibold text-sm md:text-base px-6 py-2 rounded-full transition-all">
-                  Get in Touch
-                  <ArrowRight className="w-4 h-4" />
-                </button>
+                <button
+  className="mt-5 inline-flex items-center ml-20 md:ml-0 gap-2 bg-orange-500 hover:bg-orange-600 text-white font-semibold text-sm md:text-base px-6 py-2 rounded-full transition-all"
+  type="button"
+>
+  <a href="#cta" className="flex items-center gap-2">
+    Get in Touch
+    <ArrowRight className="w-4 h-4" />
+  </a>
+</button>
 
               </div>
             </div>
 
           </div>
         </div>
-      </div>
+     
     </section>
   );
 };
