@@ -67,9 +67,9 @@ Application.
         "Brand & Media Environments",
         "Architectural & Interior Surfaces",
       ].map((item, index) => (
-        <li key={index} className="flex items-start gap-3 text-[#4A4A4A] text-sm md:text-[20px]">
+        <li key={index} className="flex items-start gap-3 text-[#4A4A4A] text-md md:text-[20px]">
           <MoveRightIcon className="font-extrabold  w-8 h-8 text-[#EF7F44] mt-[2px]" />
-          <span className="mt-2">{item}</span>
+          <span className="">{item}</span>
         </li>
       ))}
     </ul>
@@ -90,9 +90,9 @@ Application.
         "Industrial Use Cases",
         
       ].map((item, index) => (
-        <li key={index} className="flex items-start gap-3 text-[#4A4A4A] text-sm md:text-[20px]">
+        <li key={index} className="flex items-start gap-3 text-[#4A4A4A] text-md md:text-[20px]">
           <MoveRightIcon className="font-extrabold  w-8 h-8 text-[#EF7F44] mt-[2px]" />
-          <span className="mt-2">{item}</span>
+          <span className="">{item}</span>
         </li>
       ))}
     </ul>
