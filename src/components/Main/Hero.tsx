@@ -10,14 +10,18 @@ const Hero: React.FC = () => {
 
           {/* Background */}
           <div
-            className="
-              relative 
-              h-[520px] sm:h-[600px] md:h-[970px] 
-              bg-cover md:bg-cover   
-              bg-center bg-no-repeat
-            "
-            style={{ backgroundImage: `url(${HERO_IMG})` }}
-          >
+  className="
+    relative
+    h-[680px]
+    sm:h-[750px]
+    md:h-[970px]
+    bg-center
+    bg-no-repeat
+    bg-[length:100%_100%]
+    md:bg-cover
+  "
+  style={{ backgroundImage: `url(${HERO_IMG})` }}
+>
 
             {/* Overlay FIX */}
             <div className="absolute 50 bg-gradient-to-b from-black/60 via-black/40 to-black/70" />
