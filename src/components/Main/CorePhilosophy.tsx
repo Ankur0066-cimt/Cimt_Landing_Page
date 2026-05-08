@@ -53,7 +53,7 @@ const CorePhilosophy: React.FC = () => {
             <img
               src={HAJMOLA}
               alt="Hajmola rural wall advertisement"
-              className="w-full h-auto object-cover md:object-cover"
+              className="w-full h-full object-cover md:object-cover"
             />
           </div>
 

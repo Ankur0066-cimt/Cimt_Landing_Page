@@ -18,24 +18,56 @@ interface StatCardProps {
   isNumber?: boolean;
    iconBoxClassName?: string;
 }
+
 const StatCard: React.FC<StatCardProps> = ({ title, icon }) => {
   return (
-    <div className="
-      bg-white rounded-2xl 
-      overflow-hidden
-      h-[160px] md:h-[200px]
-      shadow-[0_4px_20px_rgba(42,59,126,0.08)] 
-      border border-[#F0EBE0] 
-      hover:shadow-[0_8px_28px_rgba(42,59,126,0.12)] 
-      transition-all
-    ">
-      
-      {icon && (
-        <div className="w-full h-full">
+    <div
+      className="
+        bg-white
+        rounded-2xl
+        border border-[#F0EBE0]
+        shadow-[0_4px_20px_rgba(42,59,126,0.08)]
+        hover:shadow-[0_8px_28px_rgba(42,59,126,0.12)]
+        transition-all
+        overflow-hidden
+        h-[200px]
+        flex
+        flex-col
+        justify-between
+      "
+    >
+      {/* Image Area */}
+      <div
+        className="
+          h-[120px]
+          flex
+          items-center
+          justify-center
+          
+         
+        "
+      >
+        <div className="w-full h-[120px] flex items-center justify-center">
           {icon}
         </div>
-      )}
+      </div>
 
+      {/* Text Area */}
+      <div
+        className="
+          min-h-[80px]
+          flex
+          items-center
+          justify-center
+          px-4
+          text-center
+          bg-white
+        "
+      >
+        <p className="text-lg md:text-2xl font-semibold text-[#2A3B7E] leading-snug">
+          {title}
+        </p>
+      </div>
     </div>
   );
 };
@@ -48,26 +80,26 @@ const Stats: React.FC = () => {
   
          <StatCard
   
-  title="Outdoor Media Delivered"
+  title="Prints Executed"
  
   icon={
     <img
       src={innovation}
       alt="Innovation"
-      className="h-full w-full object-contain md:p-12"
+      className="h-full w-full object-contain md:object-contain md:p-4"
     />
   }
 />
 
 <StatCard
   
-  title="Production Capacity Per Day" 
+  title="Daily Active Teams" 
 
   icon={
     <img
       src={techonology}
       alt="Teams"
-      className="h-full w-full object-contain md:p-10"
+      className="h-full w-full object-contain md:object-contain md:p-6"
     />
   }
 />
@@ -77,10 +109,10 @@ const Stats: React.FC = () => {
     <img
       src={application}
       alt="India map"
-      className="h-full w-full object-contain p-8"
+      className="h-full w-full object-contain md:object-contain"
     />
   }
-  title="Than Traditional Painting"
+  title="Pan-India Last-Mile Network"
 
 />
 
@@ -89,11 +121,11 @@ const Stats: React.FC = () => {
     <img
       src={deployement}
       alt="India map"
-      className="h-full w-full object-contain p-8"
+      className="h-full w-full object-contain md:object-contain"
     />
   }
  
-  title="Best In-Class Warranty"
+  title="Tech-Enabled Exucution & Tracking"
   
 />
 
