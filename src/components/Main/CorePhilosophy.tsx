@@ -28,7 +28,7 @@ const CorePhilosophy: React.FC = () => {
               <h2 className="flex  text-3xl md:text-4xl lg:text-5xl font-semibold text-[#2A3B7E] leading-tight mb-6">
               Designed for  Every Space & Every Need
 
- <br />
+ <br/>
                 
               </h2>
             
