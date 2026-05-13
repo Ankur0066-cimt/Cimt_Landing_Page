@@ -64,9 +64,9 @@ const StatCard: React.FC<StatCardProps> = ({ title, icon }) => {
           bg-white
         "
       >
-        <p className="text-lg md:text-2xl font-semibold text-[#2A3B7E] leading-snug">
-          {title}
-        </p>
+       <p className="text-lg md:text-2xl font-semibold text-[#2A3B7E] leading-tight break-words">
+  {title}
+</p>
       </div>
     </div>
   );
@@ -86,7 +86,7 @@ const Stats: React.FC = () => {
     <img
       src={innovation}
       alt="Innovation"
-      className="h-full w-full object-contain md:object-contain md:p-4"
+      className="h-full w-full object-contain md:object-contain p-8 md:p-8"
     />
   }
 />
@@ -99,7 +99,7 @@ const Stats: React.FC = () => {
     <img
       src={techonology}
       alt="Teams"
-      className="h-full w-full object-contain md:object-contain md:p-6"
+      className="h-full w-full object-contain md:object-contain p-8 md:p-8"
     />
   }
 />
